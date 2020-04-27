@@ -75,7 +75,7 @@ const Register = (props) => {
         <div className='from-group'>
           <label htmlFor='password'>Password</label>
           <input
-            type='text'
+            type='password'
             name='password'
             value={password}
             onChange={onChange}
@@ -84,7 +84,7 @@ const Register = (props) => {
         <div className='from-group'>
           <label htmlFor='password2'>Confirm Password</label>
           <input
-            type='text'
+            type='password'
             name='password2'
             value={password2}
             onChange={onChange}
